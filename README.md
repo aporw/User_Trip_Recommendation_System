@@ -14,9 +14,9 @@ Solving the problem of Flight Booking company on how to recommend trips to user
 7. Non_stop
 8. Layover time
 
-# Similarity measures: Minimum Ecludian distance, Cosine Similarity
+ Similarity measures: Minimum Ecludian distance, Cosine Similarity
 
-# Grouping users and finding trip most similar to their previous trips.
+ Grouping users and finding trip most similar to their previous trips.
 
 # Coming Next:
 
@@ -25,5 +25,7 @@ Solving the problem of Flight Booking company on how to recommend trips to user
 2.Build these trip features to pass in a Neural Network and predict outcome.
 
 3.Extract hidden layer weights to use as embeddings for trips. 
+
+Using architecture as below:
 
 ![What is this](Capture.PNG)
