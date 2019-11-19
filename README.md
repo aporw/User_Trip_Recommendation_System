@@ -18,14 +18,16 @@ Solving the problem of Flight Booking company on how to recommend trips to user
 
  Grouping users and finding trip most similar to their previous trips.
 
-# Coming Next:
+# Creating data
 
-1.Create example of similar and different trips. 
+Can we create a mapping between unsuccessful trips to successful trips for users? Successful means trips which are booked or active.
 
-2.Build these trip features to pass in a Neural Network and predict outcome.
+Built a multi-output neural network with optimizing loss for all 4 outputs.
 
-3.Extract hidden layer weights to use as embeddings for trips. 
+Predicted Lattitude- Longitude for destination, Number of days from 1/1/2015 for departure date and total stay for return date. 
 
-Using architecture as below:
+The origin is same as trip which is search is last 1 month by the user. 
 
-![What is this](Capture.PNG)
+Once all above attibutes are known, we can recommned a trip: (origin, destination, departure_date, return_date)
+
+
