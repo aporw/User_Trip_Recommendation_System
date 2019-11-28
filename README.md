@@ -18,7 +18,7 @@ Solving the problem of Flight Booking company on how to recommend trips to user
 
  Grouping users and finding trip most similar to their previous trips.
 
-# Creating data
+# Multi Output Neural Network
 
 Can we create a mapping between unsuccessful trips to successful trips for users? Successful means trips which are booked or active.
 
